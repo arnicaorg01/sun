@@ -31,3 +31,11 @@ USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 CMD python3 run.py --config ${config_file} --org ${org_names}
+
+# ================ ARNICA SECURITY ANNOTATION BLOCK START ================
+LABEL org.opencontainers.image.source="https://github.com/arnicaorg01/sun"
+LABEL org.opencontainers.image.path="reputation/Dockerfile"
+# These automated labels, added by the security team, enhance traceability and security.
+# For more details, see: https://docs.arnica.io/arnica-documentation/developers/adding-oci-tags-to-docker-images.
+# To exclude this file, please replace this change with: #arnica-ignore followed by the dismissal reason.
+# ================ ARNICA SECURITY ANNOTATION BLOCK END ================
