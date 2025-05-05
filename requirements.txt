@@ -1,0 +1,10 @@
+flask==0.12       # CVEs: directory traversal, XSS
+django==1.11      # CVEs: SQLi, host header injection
+requests==2.19.1  # CVEs: CVE-2018-18074
+urllib3==1.24.1   # CVEs: CVE-2019-11324
+jinja2==2.10      # CVEs: CVE-2019-10906
+pyyaml==4.2b1     # CVEs: CVE-2017-18342
+numpy==1.16.0     # Known vulnerabilities (older version)
+pillow==6.2.0     # CVEs: CVE-2020-10177, CVE-2020-10378
+cryptography==2.3 # CVEs: CVE-2018-10903
+sqlalchemy==1.2.18 # CVEs: CVE-2019-7548
