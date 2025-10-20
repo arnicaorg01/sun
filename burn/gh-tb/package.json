@@ -1,0 +1,14 @@
+{
+  "name": "my-project-with-beta-dep",
+  "version": "0.1.0",
+  "description": "Project including a beta version dependency to trigger SCA finding",
+  "dependencies": {
+    "react-awesome-component": "1.0.0-beta.5",
+    "lodash": "4.17.21"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
