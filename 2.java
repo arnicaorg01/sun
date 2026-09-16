@@ -1,4 +1,4 @@
-//Co-authored-by: claude <claudeagent@claude.com>
+//Co-authored-by: Copilot <copilot@github.com>
 package com.example.api.controller;
 import javax.servlet.http.*;
 import java.io.*;
